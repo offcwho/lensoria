@@ -16,38 +16,61 @@
     <div class="application__template">
         <header class="application__header header" id="header">
             <!-- контент шапки сайта -->
-             <a href="" class="header__link">
-                <span class="header__logo">lensoria</span>
-             </a>
-             <nav class="header__navbar">
-                <menu class="header__menu">
-                    <li class="header__list">
-                        <a href="" class="header__link">Home</a>
-                    </li>
-                    <li class="header__list">
-                        <a href="" class="header__link">About Us</a>
-                    </li>
-                    <li class="header__list">
-                        <a href="" class="header__link">Work</a>
-                    </li>
-                    <li class="header__list">
-                        <a href="" class="header__link">Service</a>
-                    </li>
-                </menu>
-                <ul class="header__buttons">
-                    <li class="header__list">
-                        <button class="header__button">Contact Us</button>
-                    </li>
-                    <li class="header__list">
-                        <button class="header__button"></button>
-                    </li>
-                </ul>
-             </nav>
+             <div class="container header__container">
+                <a href="" class="header__link">
+                    <span class="header__logo">lensoria</span>
+                 </a>
+                 <nav class="header__navbar">
+                    <menu class="header__menu">
+                        <li class="header__list">
+                            <a href="" class="header__link">Home</a>
+                        </li>
+                        <li class="header__list">
+                            <a href="" class="header__link">About Us</a>
+                        </li>
+                        <li class="header__list">
+                            <a href="" class="header__link">Work</a>
+                        </li>
+                        <li class="header__list">
+                            <a href="" class="header__link">Service</a>
+                        </li>
+                    </menu>
+                    <ul class="buttons header__buttons">
+                            <button class="button header__button">Contact Us</button>
+                            <button class="button header__button">
+                                <img src="./assets/img/Arrow.svg" alt="" class="header__buttonIcon">
+                            </button>
+                        </li>
+                    </ul>
+                 </nav>
+             </div>
         </header>
         <main class="application__main main" id="main">
             <div class="main__content" id="main-content">
                 <!-- контент страницы сайта -->                
-                 
+                <section class="main__section welcome">
+                    <div class="container welcome__container">
+                        <div class="welcome__block">
+                            <div class="welcome__heading">
+                                <h1 class="welcome__title">Capturing Life’s Moments, Turning Memories into Timeless Visual Masterpieces</h1>
+                                <p class="welcome__description">We specialize in preserving your cherished moments through stunning photography</p>
+                                <div class="buttons welcome__buttons">
+                                    <button class="button welcome__button">Contact Us</button>
+                                    <button class="button welcome__button">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="welcome__svg" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="welcome__path" d="M16.95 7.0498L7.04999 16.9498" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path class="welcome__path" d="M10 7L16.95 7.049L17 14" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                            
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="welcome__slider">
+                                <!--Тут слайдер будет-->
+                            </div>
+                        </div>
+                        <img src="" alt="" class="welcome__image">
+                    </div>
+                </section>
             </div>
         </main>
         <footer class="application__footer footer">

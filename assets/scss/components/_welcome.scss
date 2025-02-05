@@ -1,0 +1,32 @@
+.welcome{
+    &__container{
+        display: flex;
+        gap: 15px;
+    }
+    &__title{
+        font-size: 64px;
+        margin-top: 125px;
+        margin-bottom: 12px;
+    }
+    &__description{
+        width: 383px;
+        margin: 0;
+        font-size: 14px;
+    }
+    &__buttons{
+        margin-top: 40px;
+    }
+    &__button{
+        border: none;
+        background-color: $black;
+        color: $light;
+    }
+    &__path{
+        stroke: $light
+    }
+    &__image{
+        height: 780px;
+        width: 525px;
+        border-radius: 24px;
+    }
+}
