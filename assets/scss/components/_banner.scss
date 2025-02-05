@@ -1,0 +1,64 @@
+.banner{
+    height: 93px;
+    background-color: $light;
+    &__container{
+        padding-bottom: 0;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__users{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    &__description{
+        width: 170px;
+        font-size: 16px;
+        color: $black;
+    }
+    &__list{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        width: 152px;
+    }
+    &__item{
+        position: absolute;
+        height: auto;
+        left: 0;
+        height: 56px;
+        &:nth-child(2){
+            left: 32px;
+        }
+        &:nth-child(3){
+            left: 64px
+        }
+        &:nth-child(4){
+            left: 96px
+        }
+    }
+    &__image{
+        $size: 56px;
+        width: $size;
+        height: $size;
+        background-color: #fff;
+        border-radius: 100%;
+    }
+    &__tags{
+        margin: 0;padding: 0;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    &__tag{
+        height: 44px;
+        padding: 12px 32px;
+        border-radius: 28px;
+        background-color: rgba(255, 255, 255, 0.16);
+    }
+}

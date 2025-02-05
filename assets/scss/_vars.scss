@@ -1,9 +1,11 @@
 // создаем переменные для scss
 $black: #1B1B1B;
 $white: #fff;
-$light: #dce9b1;
+$light: hsl(74, 56%, 80%);
 // создаем переменные для css
 :root{
+    --color-white: #{$white};
+    --color-black: #{$black};
     --content-width: 1440px;
     --container-padding: 32px;
     --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
