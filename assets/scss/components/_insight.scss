@@ -1,0 +1,55 @@
+.insight{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    &__container{
+        padding-bottom: 0;
+    }
+    &__tag{
+        --color-tag: #{$black};
+    }
+    &__heading{
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__title{
+        max-width: 422px;
+        font-size: 34px;
+        font-weight: 400;
+    }
+    &__button{
+        border: none;
+        background-color: $black;
+        color: $white;
+    }
+    &__path{
+        stroke: $white;
+    }
+    &__cards{
+        margin: 0;
+        padding: 0;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    &__card{
+        width: 444px;
+        &Image{
+            height: 316px;
+            width: 100%;
+            border-radius: 24px;
+            margin-bottom: 24px;
+        }
+        &Title{
+            margin: 0;
+            margin-bottom: 12px;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        &Description{
+            margin: 0;
+            font-size: 14px;
+        }
+    }
+}

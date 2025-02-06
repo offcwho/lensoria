@@ -1,0 +1,89 @@
+.service{
+    margin-top: 80px;
+    &__tag{
+        --color-tag: #{$black};
+    }
+    &__title{
+        max-width: 448px;
+        font-weight: 400;
+    }
+    &__heading{
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        &Right{
+            display: flex;
+            align-items: flex-end;
+            gap: 12px;
+        }
+    }
+    &__button{
+        border: none;
+        background-color: $black;
+        color: $white;
+    }
+    &__svg{
+        fill: $white;
+    }
+    &__path{
+        stroke: $white;
+    }
+    &__input{
+        border: none;
+        padding: 10px 12px;
+        &:focus-visible{
+            outline: none;
+        }
+        &Container{
+            display: flex;
+            align-items: center;
+            height: 44px;
+        }
+    }
+    &__search{
+        $size: 36px;
+        width: $size;
+        height: $size;
+        border-radius: 100%;
+        background-color: $black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    &__cards{
+        margin: 0;
+        margin-top: 40px;
+        padding: 0;
+    }
+    &__card{
+        display: flex;
+        justify-content: space-between;
+        padding: 24px;
+        &Title{
+            margin: 0;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        &Desc{
+            max-width: 540px;
+            font-size: 18px;
+            margin: 0;
+            margin-bottom: 12px;
+        }
+        &Tags{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 8px;
+        }
+        &Button{
+            border: none;
+            background-color: $black;
+            color: $white;
+            padding: 8px 12px;
+            height: 36px;
+            font-size: 14px;
+        }
+    }
+}

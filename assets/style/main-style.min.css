@@ -86,14 +86,15 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
   min-width: 44px;
   cursor: pointer;
 }
 .button:nth-child(1) {
   padding-inline: 32px;
-  width: 132px;
   font-size: 13px;
+}
+.button:nth-child(2) {
+  width: 44px;
 }
 
 .buttons {
@@ -350,4 +351,164 @@ h3 {
 }
 .work__button {
   border: 1px solid #1B1B1B;
+}
+
+.service {
+  margin-top: 80px;
+}
+.service__tag {
+  --color-tag: #1B1B1B;
+}
+.service__title {
+  max-width: 448px;
+  font-weight: 400;
+}
+.service__heading {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.service__headingRight {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+.service__button {
+  border: none;
+  background-color: #1B1B1B;
+  color: #fff;
+}
+.service__svg {
+  fill: #fff;
+}
+.service__path {
+  stroke: #fff;
+}
+.service__input {
+  border: none;
+  padding: 10px 12px;
+}
+.service__input:focus-visible {
+  outline: none;
+}
+.service__inputContainer {
+  display: flex;
+  align-items: center;
+  height: 44px;
+}
+.service__search {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background-color: #1B1B1B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.service__cards {
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+}
+.service__card {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.service__cardTitle {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.service__cardDesc {
+  max-width: 540px;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+.service__cardTags {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+}
+.service__cardButton {
+  border: none;
+  background-color: #1B1B1B;
+  color: #fff;
+  padding: 8px 12px;
+  height: 36px;
+  font-size: 14px;
+}
+
+.insight {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.insight__container {
+  padding-bottom: 0;
+}
+.insight__tag {
+  --color-tag: #1B1B1B;
+}
+.insight__heading {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.insight__title {
+  max-width: 422px;
+  font-size: 34px;
+  font-weight: 400;
+}
+.insight__button {
+  border: none;
+  background-color: #1B1B1B;
+  color: #fff;
+}
+.insight__path {
+  stroke: #fff;
+}
+.insight__cards {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.insight__card {
+  width: 444px;
+}
+.insight__cardImage {
+  height: 316px;
+  width: 100%;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+.insight__cardTitle {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.insight__cardDescription {
+  margin: 0;
+  font-size: 14px;
+}
+
+.plans {
+  padding-top: 60px;
+}
+.plans__tag {
+  margin-inline: auto;
+  --color-tag: #1B1B1B;
+}
+.plans__title {
+  margin-inline: auto;
+  margin-top: 20px;
+  max-width: 420px;
+  font-size: 48px;
+  font-weight: 500;
 }/*# sourceMappingURL=main-style.min.css.map */
