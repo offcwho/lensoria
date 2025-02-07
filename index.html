@@ -57,10 +57,10 @@
                                 <div class="buttons welcome__buttons">
                                     <button class="button welcome__button">Book A Call</button>
                                     <button class="button welcome__button">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="welcome__svg" xmlns="http://www.w3.org/2000/svg">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="welcome__svg" xmlns="http://www.w3.org/2000">
                                             <path class="welcome__path" d="M16.95 7.0498L7.04999 16.9498" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path class="welcome__path" d="M10 7L16.95 7.049L17 14" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>                                            
+                                        <>                                            
                                     </button>
                                 </div>
                             </div>
@@ -163,18 +163,18 @@
                                 <div class="service__inputContainer">
                                     <input type="text" class="service__input" placeholder="Search Service....">
                                     <button class="service__search">
-                                        <svg class="service__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="transform: ;msFilter:;">
+                                        <svg class="service__svg" xmlns="http://www.w3.org/2000" width="24" height="24" viewBox="0 0 24 24" style="transform: ;msFilter:;">
                                             <path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path>
-                                        </svg>
+                                        <>
                                     </button>
                                 </div>
                                 <ul class="buttons service__buttons">
                                     <button class="button service__button">Contact Us</button>
                                     <button class="button service__button">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="service__svg" xmlns="http://www.w3.org/2000/svg">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="service__svg" xmlns="http://www.w3.org/2000">
                                             <path class="service__path" d="M16.95 7.0498L7.04999 16.9498" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path class="service__path" d="M10 7L16.95 7.049L17 14" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg> 
+                                        <> 
                                     </button>
                                 </ul>
                             </div>
@@ -219,6 +219,58 @@
                         </ul>
                     </div>
                 </section>
+                <section class="section__testimonials testimonials">
+                    <div class="container testimonials__container">
+                      <div class="testimonials__inner">
+                        <div class="testimonials__header">
+                          <button class="button testimonials__button">
+                            <a href="#!" class="testimonials__button-link">
+                              Testimonials
+                            </a>
+                          </button>
+                          <span class="testimonials__text">
+                            See How We<br />
+                            Make a Difference
+                          </span>
+                        </div>
+                        <div class="swiper testimonials__slider">
+                          <ul class="swiper-wrapper">
+                            <li class="testimonials__card">
+                              <!-- swiper-slide -->
+                              <div class="testimonials__text-block">
+                                <div class="testimonials__title-wrapper">
+                                  <h3 class="testimonials__title">
+                                    "collection of stunning<br />
+                                    images that truly told our story"
+                                  </h3>
+                                </div>
+                                <div class="testimonials__text-wrapper">
+                                  <p class="testimonials__paragraph">
+                                    The creativity and quality exceeded our expectations,
+                                    and we couldn't be happier<br />
+                                    with how our project turned out. Highly recommend
+                                    Lensoria to anyone looking for<br />
+                                    exceptional photography!
+                                  </p>
+                                  <span class="testimonials__creator"
+                                    >— Sarah & John, Wedding Clients</span
+                                  >
+                                </div>
+                              </div>
+                              <div class="testimonials__img">
+                                <img
+                                  class="testimonials__image"
+                                  src="/assets/img/image3.jpg"
+                                  loading="lazy"
+                                  alt="Фотография"
+                                />
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
                 <section class="main__section insight">
                     <div class="container insight__container">
                         <div class="tag insight__tag">Lensoria Insight</div>
@@ -227,10 +279,10 @@
                             <div class="buttons insight__buttons">
                                 <button class="button insight__button">Contact Us</button>
                                 <button class="button insight__button">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="insight__svg" xmlns="http://www.w3.org/2000/svg">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="insight__svg" xmlns="http://www.w3.org/2000">
                                         <path class="insight__path" d="M16.95 7.0498L7.04999 16.9498" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path class="insight__path" d="M10 7L16.95 7.049L17 14" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg> 
+                                    <> 
                                 </button>
                             </div>
                         </div>
@@ -253,16 +305,347 @@
                         </ul>
                     </div>
                 </section>
-                <section class="main__section plans">
-                    <div class="container plans__container">
-                        <div class="tag plans__tag">Pricing Plans</div>
-                        <h3 class="plans__title">Affordable Plans for Priceless Memories</h3>
+                <section class="section__price price">
+                    <div class="container price__contaier">
+                      <div class="price__inner">
+                        <div class="price__text-block">
+                          <button class="button price__button-main">
+                            <a href="#!" class="price__button-title">
+                                Pricing Plans
+                            </a>
+                          </button>
+                          <h3 class="price__title">
+                            Affordable Plans for<br>
+                            Priceless Memories
+                          </h3>
+                        </div>
+                        <ul class="price__cards">
+                            <li class="price__item">
+                                <div class="price__plan">
+                                    <h3 class="price__price">
+                                        $200.00
+                                        <span class="price__hour">
+                                            /Hour
+                                        </span>
+                                    </h3>
+                                    <button class="button price__button-plan">
+                                        <span class="price__button-span">
+                                            Basic Plan
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="price__paragraph-block">
+                                    <p class="price__paragraph">
+                                        The Business Plan on Lensoria is designed for growing businesses that require comprehensive<br>
+                                         financial management tools and premium support.
+                                    </p>
+                                </div>
+                                <div class="price__buttons-block">
+                                    <button class="button price__button">
+                                        <a href="#!" class="price__button-link">
+                                            Get Started
+                                        </a>
+                                    </button>
+                                    <button class="button price__white-button">
+                                        <a href="#!" class="price__black-link price__button-link">
+                                            Try Demo
+                                        </a>
+                                    </button>
+                                </div>
+                                <div class="price__features-block">
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            1 location
+                                        </p>
+                                    </div>
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            10 high-quality edited images
+                                        </p>
+                                    </div>
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            Online gallery for viewing and downloading
+                                        </p>
+                                    </div>
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            Digital delivery within 7 days
+                                        </p>
+                                    </div>
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            Comprehensive Financial Reporting
+                                        </p>
+                                    </div>
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            Comprehensive Financial Reporting
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="price__item">
+                                <div class="price__plan">
+                                    <h3 class="price__price">
+                                        $500.00
+                                        <span class="price__hour">
+                                            /Hour
+                                        </span>
+                                    </h3>
+                                    <button class="button price__button-plan">
+                                        <span class="price__button-span">
+                                            Premium Plan
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="price__paragraph-block">
+                                    <p class="price__paragraph">
+                                        The Business Plan on Lensoria is designed for growing businesses that require comprehensive<br>
+                                         financial management tools and premium support.
+                                    </p>
+                                </div>
+                                <div class="price__buttons-block">
+                                    <button class="button price__button">
+                                        <a href="#!" class="price__button-link">
+                                            Get Started
+                                        </a>
+                                    </button>
+                                    <button class="button price__white-button">
+                                        <a href="#!" class="price__black-link price__button-link">
+                                            Try Demo
+                                        </a>
+                                    </button>
+                                </div>
+                                <div class="price__features-block">
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            1 location
+                                        </p>
+                                    </div>
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            10 high-quality edited images
+                                        </p>
+                                    </div>
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            Online gallery for viewing and downloading
+                                        </p>
+                                    </div>
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            Digital delivery within 7 days
+                                        </p>
+                                    </div>
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            Comprehensive Financial Reporting
+                                        </p>
+                                    </div>
+                                    <div class="price__feature-item">
+                                        <img class="price__feature-icon" src="assets/img/check-black.svg" loading="lazy" alt="Галочка">
+                                        <p class="price__feature-description">
+                                            Comprehensive Financial Reporting
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="price__card-exclusive">
+                            <div class="price__plan-wrapper">
+                                <div class="price__left-wrapper">
+                                    <div class="price__plan">
+                                        <h3 class="price__price">
+                                            $1.500
+                                            <span class="price__hour">
+                                                /Day
+                                            </span>
+                                        </h3>
+                                        <button class="button price__button-exclusive">
+                                            <span class="price__button-span">
+                                                Exclusive Plan
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div class="price__paragraph-block">
+                                        <p class="price__paragraph">
+                                            The Business Plan on Lensoria is designed for growing businesses that require comprehensive<br>
+                                             financial management tools and premium support.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="price__buttons-accent price__buttons-block">
+                                    <button class="button price__button">
+                                        <a href="#!" class="price__button-link">
+                                            Get Started
+                                        </a>
+                                    </button>
+                                    <button class="button price__accent-button">
+                                        <a href="#!" class="price__black-link price__button-link">
+                                            Try Demo
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="price__features-accent price__features-block">
+                                <div class="price__feature-item">
+                                    <img class="price__feature-icon" src="assets/img/check-white.svg" loading="lazy" alt="Галочка">
+                                    <p class="price__description-accent price__feature-description">
+                                        1 location
+                                    </p>
+                                </div>
+                                <div class="price__feature-item">
+                                    <img class="price__feature-icon" src="assets/img/check-white.svg" loading="lazy" alt="Галочка">
+                                    <p class="price__description-accent price__feature-description">
+                                        10 high-quality edited images
+                                    </p>
+                                </div>
+                                <div class="price__feature-item">
+                                    <img class="price__feature-icon" src="assets/img/check-white.svg" loading="lazy" alt="Галочка">
+                                    <p class="price__description-accent price__feature-description">
+                                        Online gallery for viewing and downloading
+                                    </p>
+                                </div>
+                                <div class="price__feature-item">
+                                    <img class="price__feature-icon" src="assets/img/check-white.svg" loading="lazy" alt="Галочка">
+                                    <p class="price__description-accent price__feature-description">
+                                        Digital delivery within 7 days
+                                    </p>
+                                </div>
+                                <div class="price__feature-item">
+                                    <img class="price__feature-icon" src="assets/img/check-white.svg" loading="lazy" alt="Галочка">
+                                    <p class="price__description-accent price__feature-description">
+                                        Comprehensive Financial Reporting
+                                    </p>
+                                </div>
+                                <div class="price__feature-item">
+                                    <img class="price__feature-icon" src="assets/img/check-white.svg" loading="lazy" alt="Галочка">
+                                    <p class="price__description-accent price__feature-description">
+                                        Comprehensive Financial Reporting
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                </section>
+                  </section>
             </div>
         </main>
         <footer class="application__footer footer">
-            <!-- контент подвала сайта -->
+                <div class="footer__inner">
+                  <div class="container footer__container">
+                    <div class="footer__block-subscribe-wrapper">
+                      <div class="footer__block-subscribe">
+                      <div class="footer__subscribe-wrapper">
+                        <div class="footer__button-wrapper">
+                          <button class="button footer__subscribe-button">
+                            <a href="#!" class="footer__subscribe-link">
+                              Subscribe
+                            </a>
+                          </button>
+                        </div>
+                        <h3 class="footer__subscribe-text">
+                          Join the Lensoria community and let us bring your vision to life, one frame at a time!
+                        </h3>
+                        <div class="footer__input-wrapper">
+                          <button class="footer__input-button">
+                            <img src="/assets/img/send-icon.svg" loading="lazy" alt="Отправить" class="footer__send-icon">
+                          </button>
+                          <input placeholder="Enter Your Email Address...." type="email" class="footer__input">
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="footer__block-links">
+                      <div class="footer__links-left">
+                        <span class="footer__left-span">
+                          LENSORIA
+                        </span>
+                        <p class="footer__left-paragraph">
+                          Capturing Life’s Moments, Turning<br>
+                           Memories into Timeless Visual<br>
+                            Masterpieces
+                        </p>
+                      </div>
+                      <ul class="footer__links-right">
+                        <li class="footer__links-item">
+                          <h4 class="footer__links-title">
+                            Our Service
+                          </h4>
+                          <div class="footer__links-wrapper">
+                            <a href="#!" class="footer__link">
+                              Event Photography
+                            </a>
+                            <a href="#!" class="footer__link">
+                              Product Photography
+                            </a>
+                            <a href="#!" class="footer__link">
+                              Portrait Photography
+                            </a>
+                          </div>
+                        </li>
+                        <li class="footer__links-item">
+                          <h4 class="footer__links-title">
+                            Social
+                          </h4>
+                          <div class="footer__links-wrapper">
+                            <a href="#!" class="footer__link-secondary footer__link">
+                              Instagram
+                            </a>
+                            <a href="#!" class="footer__link-secondary footer__link">
+                              Facebook
+                            </a>
+                            <a href="#!" class="footer__link-secondary footer__link">
+                              Youtube
+                            </a>
+                            <a href="#!" class="footer__link-secondary footer__link">
+                              LinkedIn
+                            </a>
+                          </div>
+                        </li>
+                        <li class="footer__links-item">
+                          <h4 class="footer__links-title">
+                            About
+                          </h4>
+                          <div class="footer__links-wrapper">
+                            <a href="#!" class="footer__link">
+                              Our Product
+                            </a>
+                            <a href="#!" class="footer__link">
+                              Our Work
+                            </a>
+                            <a href="#!" class="footer__link">
+                              Testimonials
+                            </a>
+                            <a href="#!" class="footer__link">
+                              Lensoria Insight
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="footer__block-copyright">
+                      <span class="footer__copyright-text">
+                        Privacy Policy/Terms
+                      </span>
+                      <span class="footer__copyright-text">
+                        © 2024 LENSORIA, All right reserved
+                      </span>
+                    </div>
+                  </div>
+                </div>
         </footer>
     </div>
 </body>
